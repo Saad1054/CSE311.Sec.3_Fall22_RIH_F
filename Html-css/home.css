@@ -1,0 +1,302 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.home{
+    width: 100%;
+    background-image: linear-gradient(to top, rgba(154, 163, 250, 0.5)50%,rgba(200, 175, 249, 0.5)50%) , url(../image/hospital.png);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    position: absolute;
+}
+
+
+.form-box{
+    width: 250px;
+    height: 350px;
+    position: relative;
+    margin: 200px 120px;
+    background: #fff;
+    padding: 5px;
+    border-radius: 30px;
+    margin-top: 185px;
+    
+    
+    
+}
+.form-box h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: black;
+    background: linear-gradient(to top, rgba(210, 221, 242, 0.8)50%, rgba(178, 218, 241, 0.8)50%);
+    font-size: 22px; 
+    border-radius: 30px;
+    margin: 20px 10px;
+    padding: 8px;
+    text-decoration: none;
+    cursor: pointer;
+    border: 0;
+    
+}
+.form-box h4{
+    width: 200px;
+    font-family: sans-serif;
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    margin-left: 15px;
+    font-weight: normal;
+
+}
+.form-box img{
+    width: 50%;
+    height: 35%;
+    margin: 20px 55px;
+    box-shadow: 0 0 20px 0 #7f7f7f3d;
+    cursor: pointer;
+    border-radius: 30%;
+
+}
+.btnn{
+    width: 200px;
+    height: 40px;
+    background: rgb(153, 231, 245);
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 30px;
+    cursor: pointer;
+    color: black;
+    margin: 20px ;
+}
+.btnn:hover{
+    background: whitesmoke;
+    color: black;
+
+}
+.btnn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.form-box1{
+    width: 160px;
+    height: 250px;
+    position: relative;
+    margin:  320px;
+    background: #fff;
+    padding: 50px;
+    border-radius: 30px;
+    margin-top: -350px;
+    margin-bottom: 50px;
+    
+    
+}
+.form-box1 h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: black;
+    background: linear-gradient(to top, rgba(210, 221, 242, 0.8)50%, rgba(178, 218, 241, 0.8)50%);
+    font-size: 22px; 
+    border-radius: 30px;
+    margin: 1px 10px;
+    margin-left: -38px;
+    margin-top: -30px;
+    padding: 8px;
+    text-decoration: none;
+    cursor: pointer;
+    border: 0;
+    
+}
+.form-box1 h4{
+    width: 200px;
+    font-family: sans-serif;
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    margin-left: -20px;   
+    font-weight: normal;
+
+}
+.form-box1 img{
+    width: 80%;
+    height: 50%;
+    margin: 30px 15px;
+    box-shadow: 0 0 20px 0 #7f7f7f3d;
+    cursor: pointer;
+    border-radius: 30%;
+
+}
+.btnn1{
+    width: 200px;
+    height: 40px;
+    background: rgb(153, 231, 245);
+    border: none;
+    margin-top: 10px;
+    font-size: 18px;
+    border-radius: 30px;
+    cursor: pointer;
+    color: black;
+    margin-left: -15px ;
+    
+}
+.btnn1:hover{
+    background: whitesmoke;
+    color: black;
+
+}
+.btnn1 a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.form-box2{
+    width: 160px;
+    height: 250px;
+    position: relative;
+    margin:  650px;
+    background: #fff;
+    padding: 50px;
+    border-radius: 30px;
+    margin-top: -400px;
+    margin-bottom: 50px;
+    
+    
+}
+.form-box2 h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: black;
+    background: linear-gradient(to top, rgba(210, 221, 242, 0.8)50%, rgba(178, 218, 241, 0.8)50%);
+    font-size: 22px; 
+    border-radius: 30px;
+    margin: 1px 10px;
+    margin-left: -38px;
+    margin-top: -30px;
+    padding: 8px;
+    text-decoration: none;
+    cursor: pointer;
+    border: 0;
+    
+}
+.form-box2 h4{
+    width: 200px;
+    font-family: sans-serif;
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    margin-left: -20px;   
+    font-weight: normal;
+
+}
+.form-box2 img{
+    width: 80%;
+    height: 50%;
+    margin: 30px 15px;
+    box-shadow: 0 0 20px 0 #7f7f7f3d;
+    cursor: pointer;
+    border-radius: 30%;
+
+}
+.btnn2{
+    width: 200px;
+    height: 40px;
+    background: rgb(153, 231, 245);
+    border: none;
+    margin-top: 10px;
+    font-size: 18px;
+    border-radius: 30px;
+    cursor: pointer;
+    color: black;
+    margin-left: -15px ;
+    
+}
+.btnn2:hover{
+    background: whitesmoke;
+    color: black;
+
+}
+.btnn2 a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.form-box3{
+    width: 160px;
+    height: 250px;
+    position: relative;
+    margin:  650px;
+    background:white;
+    padding: 50px;
+    border-radius: 30px;
+    margin-top: -400px;
+    margin-bottom: 50px;
+    margin-left: 990px;
+    
+    
+}
+.form-box3 h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: black;
+    background: linear-gradient(to top, rgba(210, 221, 242, 0.8)50%, rgba(178, 218, 241, 0.8)50%);
+    font-size: 22px; 
+    border-radius: 30px;
+    margin: 1px 10px;
+    margin-left: -38px;
+    margin-top: -30px;
+    padding: 8px;
+    text-decoration: none;
+    cursor: pointer;
+    border: 0;
+    
+}
+.form-box3 h4{
+    width: 200px;
+    font-family: sans-serif;
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    margin-left: -20px;   
+    font-weight: normal;
+
+}
+.form-box3 img{
+    width: 80%;
+    height: 50%;
+    margin: 30px 15px;
+    box-shadow: 0 0 20px 0 #7f7f7f3d;
+    cursor: pointer;
+    border-radius: 30%;
+
+}
+.btnn3{
+    width: 200px;
+    height: 40px;
+    background: rgb(153, 231, 245);
+    border: none;
+    margin-top: 10px;
+    font-size: 18px;
+    border-radius: 30px;
+    cursor: pointer;
+    color: black;
+    margin-left: -15px ;
+    
+}
+.btnn3:hover{
+    background: whitesmoke;
+    color: black;
+
+}
+.btnn3 a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
