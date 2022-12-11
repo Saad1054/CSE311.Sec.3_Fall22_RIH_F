@@ -1,0 +1,20 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "poppings",sans-serif;
+
+}
+body{
+    min-height: 100vh ;
+    background-image: url(https://media.istockphoto.com/id/911633218/vector/abstract-geometric-medical-cross-shape-medicine-and-science-concept-background.jpg?s=612x612&w=0&k=20&c=eYz8qm5xa5wbWCWKgjOpTamavekYv8XqPTA0MC4tHGA=);
+    background-size: cover;   
+    
+    
+    
+}
+.heading{
+    font-size: larger;
+
+text-align: center;
+}
