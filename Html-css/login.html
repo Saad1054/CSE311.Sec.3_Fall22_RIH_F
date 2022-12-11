@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="../css/login.css">
+</head>
+<body>
+    <div class="hero">
+        <div class="form-box">
+            <h2>Log In as</h2>
+            <div class="button-box">              
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn" onclick="doctor()">Doctor</button>
+                <button type="button" class="toggle-btn" onclick="patient()"> Patient</button>
+
+            </div>
+            <div class="social-icons">
+                <img src="../image/fb.png">
+                <img src="../image/google.png"
+            </div>
+            <form id="doctor" class="input-group">
+                <input type="text" name="text" placeholder="Doctor Id">
+
+                <input type="email" name="email" placeholder="email">
+                
+                <input type="password" name=""placeholder = "enter password">
+                
+                
+                <button type="submit" class="submit-btn">Log In</button>
+
+                
+
+            </form>
+            <form id = "patient"class="input-group">
+                <input type="text" name="text" placeholder="Patient Id">              
+                <input type="email"  name="text" placeholder="email">              
+                <input type="password" name=""  placeholder = "enter password">
+                <button type="submit" class="submit-btn">Log In</button>
+
+                
+
+            </form>
+
+
+        </div>
+
+    </div>
+    <script>
+        var x = document.getElementById("doctor");
+        var y = document.getElementById("patient");
+        var z = document.getElementById("btn");
+
+        function patient(){
+            x.style.left = "-450px";
+            y.style.left = "50px";
+            z.style.left = "110px";
+
+        }
+        function doctor(){
+            x.style.left = "50px";
+            y.style.left = "450px";
+            z.style.left = "0px";
+        }
+    
+
+
+    </script>
+</body>
+</html>
