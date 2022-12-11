@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap'); 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    background-image: url(../Image/Contact.png) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contact_section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contact_info{
+    color: rgb(8, 16, 77);
+    max-width: 500px;
+    line-height: 65px;
+    padding-left: 50px;
+    font-size: 18px;
+}
+
+.contact_form{
+    max-width: 700px;
+    margin-right: 50px;
+}
+
+.contact_info, .contact_form{
+    flex: 1;
+}
+
+.contact_form h1{
+    color: rgb(8, 16, 77);
+    text-align: center;
+    font-size: 35px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+
+.contact_form .text_box{
+    background: rgb(254, 253, 253);
+    color: rgb(12, 11, 11);
+    border: none;
+    width: calc(50% - 10px);
+    height: 50px;
+    padding: 12px;
+    font-size: 15px;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 1);
+    margin-bottom: 20px;
+    opacity: 0.9;
+}
+
+.contact_form textarea{
+    background: rgb(254, 253, 253);
+    color: rgb(12, 11, 11);
+    border: 0in;
+    width: 100%;
+    padding: 12px;
+    font-size: 15px;
+    min-height: 200px;
+    max-height: 400px;
+    resize: vertical;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 1);
+    margin-bottom: 20px;
+    opacity: 0.9;
+}
+
+button{
+    float: right;
+    background: #0961a3;
+    border: none;
+    width: 120px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    transition-property:background;
+}
+
+button:hover{
+    background: #2a89d2;
+}
+
+@media screen and (max-width:950px){
+    .contact_section{
+        flex-direction: column;
+    }
+
+    .contact_info,.contact_form{
+        margin: 30px 50px;
+    }
+    
+    .contact_form h1{
+        font-size: 30px;
+    }
+}
+
