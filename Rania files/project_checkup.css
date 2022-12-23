@@ -27,7 +27,7 @@ padding: 10px;
         font-weight: 600;
         text-transform: uppercase;
         letter-spacing: 2px;
-        border-radius: 5px;
+        border-radius: 30px;
         cursor: pointer;
         transition: 0.3s;
         transition-property:background;
